@@ -86,6 +86,8 @@ def parse_contents(contents, filename, date):
             print("file readed")
             print("*"*10)
             for line in decoded.decode('utf-8').split("\n"):
+                line = line.replace("[", "")
+                line = line.replace("]", "-")
                 try:
                     if ":" in line.split("-")[1]:
                         date = line.split("-")[0]
