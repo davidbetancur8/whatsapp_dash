@@ -3,6 +3,6 @@ dash==1.9.0
 dash-bootstrap-components==0.8.3
 PyOpenSSL==19.1.0
 gunicorn==19.9.0
-requests==2.23.0 
+requests==2.31.0 
 stop-words==2018.7.23
 wordcloud==1.6.0
